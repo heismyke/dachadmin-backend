@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS audit_logs;
+DROP TABLE IF EXISTS team;
+DROP TABLE IF EXISTS contact_requests;
+DROP TABLE IF EXISTS reviews;
+DROP TABLE IF EXISTS pricing_rule_coverage;
+DROP TABLE IF EXISTS pricing_rule_services;
+DROP TABLE IF EXISTS pricing_rules;
+DROP TABLE IF EXISTS service_coverage;
+DROP TABLE IF EXISTS coverage_zones;
+DROP TABLE IF EXISTS service_pricing;
+DROP TABLE IF EXISTS live_deliveries;
+DROP TABLE IF EXISTS drivers;
+DROP TABLE IF EXISTS bookings;
+DROP TABLE IF EXISTS quotes;
+DROP TABLE IF EXISTS services;
+DROP TABLE IF EXISTS customers;

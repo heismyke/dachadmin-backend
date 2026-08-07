@@ -1,0 +1,17 @@
+.git
+.gitignore
+.DS_Store
+.env
+.env.*
+!.env.example
+
+Dockerfile
+docker-compose*.yml
+
+tmp/
+dist/
+build/
+coverage/
+
+*.log
+*.test
