@@ -26,6 +26,7 @@ RUN apk add --no-cache ca-certificates wget \
 WORKDIR /app
 
 COPY --from=builder /out/dach-admin-api /app/dach-admin-api
+COPY migrations /app/migrations
 
 USER app
 
