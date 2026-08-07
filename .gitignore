@@ -1,21 +1,5 @@
-.DS_Store
-
-# Local environment
 .env
-.env.*
-!.env.example
-
-# Build outputs
-/bin/
-/dist/
-/build/
-/tmp/
-*.test
-*.out
-
-# Logs
+bin/
+tmp/
 *.log
-
-# Editor files
-.idea/
-.vscode/
+.DS_Store
